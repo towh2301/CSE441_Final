@@ -17,11 +17,22 @@ A complete React Native CRUD (Create, Read, Update, Delete) application template
 
 ## 📱 Screens
 
+### Bottom Tab Navigation
+
+-   **Items Tab** - Contains all CRUD functionality
+-   **Profile Tab** - User profile and settings
+
+### Items Tab Screens:
+
 1. **Home Screen** - Welcome screen with navigation options
 2. **Item List Screen** - Display all items with search and refresh functionality
 3. **Add Item Screen** - Form to create new items
 4. **Edit Item Screen** - Form to update existing items
 5. **Item Detail Screen** - Detailed view of a single item
+
+### Profile Tab Screens:
+
+6. **Profile Screen** - User profile with editable information, stats, and settings
 
 ## 🛠️ Project Structure
 
@@ -35,7 +46,13 @@ src/
 │   ├── ItemListScreen.js
 │   ├── AddItemScreen.js
 │   ├── EditItemScreen.js
-│   └── ItemDetailScreen.js
+│   ├── ItemDetailScreen.js
+│   └── ProfileScreen.js
+├── components/
+│   ├── LoadingSpinner.js
+│   └── ErrorMessage.js
+├── utils/
+│   └── index.js        # Utility functions
 └── services/
     └── ItemService.js  # API service for CRUD operations
 ```
@@ -173,6 +190,7 @@ npm run ios
 	"react-native": "0.73.6",
 	"@react-navigation/native": "^6.1.9",
 	"@react-navigation/stack": "^6.3.20",
+	"@react-navigation/bottom-tabs": "^6.5.11",
 	"react-native-screens": "~3.29.0",
 	"react-native-safe-area-context": "4.8.2",
 	"react-native-gesture-handler": "~2.14.0",

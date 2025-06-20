@@ -18,13 +18,13 @@ d:\Development\React Native\CSE441_Final\
     │   ├── 📄 theme.js          # App theme & colors
     │   └── 📄 apiExamples.js    # API configuration examples
     ├── 📁 services/
-    │   └── 📄 ItemService.js    # Complete CRUD service
-    ├── 📁 screens/
+    │   └── 📄 ItemService.js    # Complete CRUD service    ├── 📁 screens/
     │   ├── 📄 HomeScreen.js     # Welcome/dashboard screen
     │   ├── 📄 ItemListScreen.js # List items with search
     │   ├── 📄 AddItemScreen.js  # Create new items
     │   ├── 📄 EditItemScreen.js # Update existing items
-    │   └── 📄 ItemDetailScreen.js # View item details
+    │   ├── 📄 ItemDetailScreen.js # View item details
+    │   └── 📄 ProfileScreen.js  # User profile and settings
     ├── 📁 components/
     │   ├── 📄 LoadingSpinner.js # Reusable loading component
     │   └── 📄 ErrorMessage.js   # Error handling component
@@ -33,6 +33,12 @@ d:\Development\React Native\CSE441_Final\
 ```
 
 ### 🚀 **Key Features Implemented**
+
+#### **Bottom Tab Navigation**
+
+-   ✅ **Items Tab** - Complete CRUD functionality
+-   ✅ **Profile Tab** - User profile and settings
+-   ✅ **Seamless Navigation** - Easy switching between sections
 
 #### **Complete CRUD Operations**
 

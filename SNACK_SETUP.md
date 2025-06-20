@@ -69,7 +69,9 @@ const API_CONFIG = {
 
 ## Step 6: Test Features
 
-Test all CRUD operations:
+Test all features using the bottom tab navigation:
+
+### Items Tab:
 
 -   ✅ View items list
 -   ✅ Add new item
@@ -77,6 +79,13 @@ Test all CRUD operations:
 -   ✅ View item details
 -   ✅ Delete item
 -   ✅ Search functionality
+
+### Profile Tab:
+
+-   ✅ View user profile
+-   ✅ Edit profile information
+-   ✅ View activity stats
+-   ✅ Navigate to items from profile
 
 ## Common Issues in Snack
 
